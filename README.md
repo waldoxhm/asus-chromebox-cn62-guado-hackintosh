@@ -41,7 +41,7 @@ opencore efi partition（osx catalina 10.15.7 with opencore 0.6.1 ）
  - https://github.com/Mieze/RTL8111_driver_for_OS_X
  
 ————————————————————————————————————————————————————————
-# Asus-chromebox-cn62-guado-hackintosh
+# 华硕-chromebox-cn62-guado-黑苹果
 OPENCORE efi分区所有文件（osx catalina 10.15.7 with opencore 0.6.1）
 
 ### 系统配置
@@ -52,7 +52,7 @@ OPENCORE efi分区所有文件（osx catalina 10.15.7 with opencore 0.6.1）
  - 声卡: Realtek ALC283
  - 网卡: Realtek RTL8111
 
-### What's working
+### 正常工作
  - 显卡
  - 声卡
  - 网卡(需要到网络偏好设置中将EN0的硬件选项调至手动，否则显示网线未插好)
