@@ -17,12 +17,10 @@ opencore efi partition（osx catalina 10.15.7 with opencore 0.6.1 ）
  - Original WIFI module(use heliport to connect wifi)
  - BLUETOOTH
  - Native Power Management （patched）
+ - HDMI + Audio
 
 ### Not working
  - Fan control（fan runs at 2400 RPM ，does not change speed）
-
-### Not sure
- - HDMI + Audio(I'm using DP Display with BT speaker,test it yourself)
 
 ### Credits & Sources (in no particular order and maybe missing some)
  - Apple INC.
@@ -60,12 +58,10 @@ OPENCORE efi分区所有文件（osx catalina 10.15.7 with opencore 0.6.1）
  - 原生无线网卡（使用heliport连接Wi-Fi）
  - 蓝牙
  - 原生电源管理（已打补丁） 
+ - HDMI及声音
 
 ### 不正常工作
  - 风扇控制（风扇一直匀速2400转左右，不会改变转速）
-
-### 不确定
- - HDMI的声音(我用DP显示器和蓝牙音箱，HDMI声音需要自行测试)
 
 ### 感谢及出处 (没有特定顺序，并且可能遗漏)
  - 美国苹果电脑公司
