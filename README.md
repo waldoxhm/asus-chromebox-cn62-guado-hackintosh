@@ -38,7 +38,7 @@ opencore efi partition（osx catalina 10.15.7 with opencore 0.6.1 ）
  - https://github.com/OpenIntelWireless
  - https://github.com/Mieze/RTL8111_driver_for_OS_X
  
-————————————————————————————————————————————————————————
+——————————————————————————————————————————————————
 # 华硕-chromebox-cn62-guado-黑苹果
 OPENCORE efi分区所有文件（osx catalina 10.15.7 with opencore 0.6.1）
 
