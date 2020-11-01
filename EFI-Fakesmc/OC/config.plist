@@ -718,7 +718,7 @@
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
-			<false/>
+			<true/>
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableLinkeditJettison</key>
@@ -1002,7 +1002,7 @@
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string>E3E73965-C153-46BE-8975-0E158BCB9876</string>
+			<string>87A54C8E-39E6-4E0A-AFEB-D49BE61C0996</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1019,7 +1019,7 @@
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string>E3E73965-C153-46BE-8975-0E158BCB9876</string>
+			<string>87A54C8E-39E6-4E0A-AFEB-D49BE61C0996</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1089,7 +1089,7 @@
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string>E3E73965-C153-46BE-8975-0E158BCB9876</string>
+			<string>87A54C8E-39E6-4E0A-AFEB-D49BE61C0996</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
