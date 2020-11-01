@@ -1,6 +1,11 @@
 # Asus-chromebox-cn62-guado-hackintosh
 opencore efi partition（osx catalina 10.15.7 with opencore 0.6.1 ）
 
+## update2020.11.01
+
+ - New Folder “EFI-fakesmc” replace the Virtualsmc with Fakesmc to get Fan-control（via ssd fan control https://exirion.net/ssdfanctrl/ ）
+ - Opencore's Installation guide says it is not recommand to use fakesmc with opencore, and fakesmc is out of date, so if you want Virtualsmc back, pls use folder “EFI”
+
 ### System configuration
  - BIOS：mrchromebox COREBOOT 4.12 
  - CPU: Intel Core i7-5500U
@@ -18,9 +23,7 @@ opencore efi partition（osx catalina 10.15.7 with opencore 0.6.1 ）
  - BLUETOOTH
  - Native Power Management （patched）
  - HDMI + Audio
-
-### Not working
- - Fan control（fan runs at 2400 RPM ，does not change speed）
+ - Fan control （via ssd fan control https://exirion.net/ssdfanctrl/ ）
 
 ### Credits & Sources (in no particular order and maybe missing some)
  - Apple INC.
@@ -42,6 +45,10 @@ opencore efi partition（osx catalina 10.15.7 with opencore 0.6.1 ）
 # 华硕-chromebox-cn62-guado-黑苹果
 OPENCORE efi分区所有文件（osx catalina 10.15.7 with opencore 0.6.1）
 
+## 更新2020.11.01
+ - 新文件夹 “EFI-fakesmc” 使用fakesmc替换Virtualsmc以获得完整的风扇控制和传感器读数（通过使用 ssd fan control https://exirion.net/ssdfanctrl/ ）
+ - Opencore的安装手册中不建议将fakesmc与opencore一起使用, 并且fakesmc已经停止开发, 所以如果您想使用持续更新的的Virtualsmc，请使用“EFI”文件夹
+
 ### 系统配置
  - BIOS：mrchromebox COREBOOT 4.12 
  - 中央处理器: Intel Core i7-5500U
@@ -59,9 +66,7 @@ OPENCORE efi分区所有文件（osx catalina 10.15.7 with opencore 0.6.1）
  - 蓝牙
  - 原生电源管理（已打补丁） 
  - HDMI及声音
-
-### 不正常工作
- - 风扇控制（风扇一直匀速2400转左右，不会改变转速）
+ - 风扇控制（通过使用 ssd fan control https://exirion.net/ssdfanctrl/ ）
 
 ### 感谢及出处 (没有特定顺序，并且可能遗漏)
  - 美国苹果电脑公司
