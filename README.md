@@ -17,7 +17,7 @@ opencore efi partition（osx catalina 10.15.7 with opencore 0.6.1 ）
 ### What's working
  - IGPU
  - Audio
- - Ethernet(set EN0-interface-preferences-hardware to manual or will not wired)
+ - Ethernet(set EN0-interface-preferences-hardware to manual , or it will not wired)
  - SD card reader
  - Original WIFI module(use heliport to connect wifi)
  - BLUETOOTH
@@ -48,7 +48,7 @@ OPENCORE efi分区所有文件（osx catalina 10.15.7 with opencore 0.6.1）
 ## 更新2020.11.01
  - 修复3.5mm音频接口，现支持耳麦。
  - 新文件夹 “EFI-fakesmc” 使用fakesmc替换Virtualsmc以获得完整的风扇控制和传感器读数（通过使用 ssd fan control https://exirion.net/ssdfanctrl/ ）。
- - Opencore的安装手册中不建议将fakesmc与opencore一起使用, 并且fakesmc已经停止开发, 所以如果您想使用持续更新的的Virtualsmc，请使用“EFI”文件夹,但是您将失去风扇控制。
+ - Opencore的安装手册中不建议将fakesmc与opencore一起使用, 并且fakesmc已经停止开发,所以如果您想使用持续更新的Virtualsmc，请使用“EFI”文件夹,但是您将失去风扇控制。
 
 ### 系统配置
  - BIOS：mrchromebox COREBOOT 4.12 
