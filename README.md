@@ -1,7 +1,7 @@
 # Asus-chromebox-cn62-guado-hackintosh
 opencore efi partition
 
-## About downgrade the bios
+## About downgrade the bios（If you bios version is not 4.12，use this script，otherwise ignore it.）
 https://github.com/waldoxhm/scripts
 
 ## update2021.08.20 （osx Big sur 11.5.2 with opencore 0.7.2 ）
@@ -55,7 +55,7 @@ so,this efi file does not support mrchromebox.tech's latest bios.(I'v tested and
 # 华硕-chromebox-cn62-guado-黑苹果
 OPENCORE efi分区所有文件
 
-## 关于降级BIOS
+## 关于降级BIOS（如果你的bios版本不是4.12，使用下面的脚本，否则直接忽略）
 https://github.com/waldoxhm/scripts
 
 ## 更新2021.08.20 （osx Big sur 11.5.2 with opencore 0.7.2 ）
