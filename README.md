@@ -1,3 +1,4 @@
+![srceen](https://user-images.githubusercontent.com/4980738/130219466-fc47ecd7-a998-425e-afc2-36624e86635b.png)
 # Asus-chromebox-cn62-guado-hackintosh
 opencore efi partition
 
