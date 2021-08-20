@@ -1,6 +1,10 @@
 # Asus-chromebox-cn62-guado-hackintosh
 opencore efi partition
 
+## About downgrade the bios
+
+https://github.com/waldoxhm/scripts
+
 ## update2021.08.20 （osx Big sur 11.5.2 with opencore 0.7.2 ）
  - New Folder “EFI-Fakesmc-OC0.7.2”  added IntelBluetoothFirmware.kext for better bluetooth support.
  - Updated drivers and opencore version.
