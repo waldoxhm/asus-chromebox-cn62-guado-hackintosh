@@ -1,10 +1,14 @@
-![srceen](https://user-images.githubusercontent.com/4980738/130219466-fc47ecd7-a998-425e-afc2-36624e86635b.png)
+![ss](https://user-images.githubusercontent.com/4980738/132847039-3d286962-9ca8-4072-9a1e-e4873a6d37af.jpg)
+
 # Asus-chromebox-cn62-guado-hackintosh
 opencore efi partition
 
 ## About downgrade the bios（If you bios version is not 4.12，use this script，otherwise ignore it.）
 https://github.com/waldoxhm/scripts
 
+## update2021.09.10 （osx Big sur 11.5.2 with opencore 0.7.2 ）
+ - 0x6D Patched to DSDT,fixed instant wake after sleep.
+ 
 ## update2021.08.20 （osx Big sur 11.5.2 with opencore 0.7.2 ）
  - New Folder “EFI-Fakesmc-OC0.7.2”  added IntelBluetoothFirmware.kext for better bluetooth support.
  - Updated drivers and opencore version.
@@ -58,6 +62,9 @@ OPENCORE efi分区所有文件
 
 ## 关于降级BIOS（如果你的bios版本不是4.12，使用下面的脚本，否则直接忽略）
 https://github.com/waldoxhm/scripts
+
+## 更新2021.09.10 （osx Big sur 11.5.2 with opencore 0.7.2 ）
+ - 0x6D DSDT补丁，修复睡眠后USB导致的直接唤醒.
 
 ## 更新2021.08.20 （osx Big sur 11.5.2 with opencore 0.7.2 ）
  - 新文件夹 “EFI-Fakesmc-OC0.7.2”  新增 IntelBluetoothFirmware.kext 以获得更好的蓝牙支持。
