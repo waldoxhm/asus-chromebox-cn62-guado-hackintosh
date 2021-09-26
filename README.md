@@ -3,8 +3,16 @@
 # Asus-chromebox-cn62-guado-hackintosh
 opencore efi partition
 
-## About downgrade the bios（If you bios version is not 4.12，use this script，otherwise ignore it.）
-https://github.com/waldoxhm/scripts
+## About Mrchromebox's Latest coreboot bios
+After version 4.12 ,coreboot changed the way nvram stores, it leads to kernel panic during boot osx with my efi files. 
+
+simplely set <code>Booter->Quirks->DisableVariableWrite</code> and <code>NVRAM->LegacyEnable</code> to <code>true</code> in config.plist will do the trick.
+
+Downgrade the bios is not recommended anymore.
+
+## update2021.09.26 （osx Big sur 11.6 with opencore 0.7.2 ）
+ - compability comfirmed with coreboot 4.14 and osx Big sur 11.6
+ - set <code>Booter->Quirks->DisableVariableWrite</code> and <code>NVRAM->LegacyEnable</code> to <code>true</code> in config.plist (if coreboot bios version >4.12)
 
 ## update2021.09.10 （osx Big sur 11.5.2 with opencore 0.7.2 ）
  - 0x6D Patched to DSDT,fixed instant wake after sleep.
@@ -60,8 +68,16 @@ so,this efi file does not support mrchromebox.tech's latest bios.(I'v tested and
 # 华硕-chromebox-cn62-guado-黑苹果
 OPENCORE efi分区所有文件
 
-## 关于降级BIOS（如果你的bios版本不是4.12，使用下面的脚本，否则直接忽略）
-https://github.com/waldoxhm/scripts
+## 关于最新版 Mrchromebox's coreboot bios
+在4.12之后的版本，nvram的储存方式发生了变化，使用我的efi文件引导osx会引起kernel panic。
+
+只要把config.plist中的<code>Booter->Quirks->DisableVariableWrite</code>和<code>NVRAM->LegacyEnable</code> 设置为 <code>true</code>即可正常启动。
+
+不再推荐降级bios。
+
+## update2021.09.26 （osx Big sur 11.6 with opencore 0.7.2 ）
+ - 在coreboot 4.14 和 osx Big sur 11.6 下确认兼容性。
+ - 将config.plist中的<code>Booter->Quirks->DisableVariableWrite</code>和<code>NVRAM->LegacyEnable</code> 设置为 <code>true</code>(如果你使用4.12以上版本的bios)
 
 ## 更新2021.09.10 （osx Big sur 11.5.2 with opencore 0.7.2 ）
  - 0x6D DSDT补丁，修复睡眠后USB导致的直接唤醒.
